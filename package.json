@@ -1,0 +1,34 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "expo": {
+    "name": "Your App Name",
+    "icon": "./path/to/your/app-icon.png",
+    "version": "1.0.0",
+    "slug": "your-app-slug",
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
+    }
+  },
+  "dependencies": {
+    "expo": "^36.0.0",
+    "react": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native-gesture-handler": "^1.5.3",
+    "react-native-vector-icons": "^6.6.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^8.0.0"
+  },
+  "private": true
+}
